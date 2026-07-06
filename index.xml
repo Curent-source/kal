@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>大阪大学 基礎工学研究科 岩井研究室</title>
+    <link>https://xrgroup-uosaka.github.io/</link>
+    <description>Recent content on 大阪大学 基礎工学研究科 岩井研究室</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0900</lastBuildDate>
+    <atom:link href="https://xrgroup-uosaka.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>拡散零空間モデルの知識蒸留による高速・物理忠実・高品質レンズレスイメージング</title>
+      <link>https://xrgroup-uosaka.github.io/projects/26-06-19-nakamura-ieee/</link>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/projects/26-06-19-nakamura-ieee/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;　レンズレスイメージングは符号化光学系と画像再構成処理の組み合わせにより小型撮像系を実現する情報光学技術です。レンズレスイメージングの画像再構成処理は多数の光情報の重畳を解く悪条件逆問題であるため、アルゴリズム設計の工夫がその成否を分ける鍵となります。古典的な逆解析手法は復元画像の品質に限界があり、近年の深層学習型手法は物理モデルに対する解の忠実性に課題がありました。これらの課題を解決するため、近年、拡散零空間モデル（逆解析で復元できない画像成分に限定して生成による情報補完を行う拡散モデル）を用いることで物理忠実性と高品質を同時実現する技術が提案されていますが、生成のために反復処理を必要とするため、速度に課題がありました。&lt;br&gt;&#xA;　本研究では、拡散零空間モデルにおいて、零空間成分の生成系に知識蒸留を行うことで、非反復で物理忠実かつ高品質なレンズレス画像再構成を実現する技術（NSDD: Null-Space Diffusion Distillation）を提案しています。数値実験により、NSDDが従来手法では不可能であった高速・物理忠実・高品質の三項目を同時達成できることを定量的に示しました。また、光学実験により、実環境下でも提案手法が有効であることを実証しました。さらに、NSDDが学習データの分布から外れた対象物に対しても良好に動作する汎化性能を有することを実験的に実証しました。加えて、知識蒸留の対象を零空間生成系に限定することが、単純な蒸留に比べて高い効果をもたらすことも確認しました。&lt;br&gt;&#xA;　本成果は、レンズレスイメージングの速さ・正しさ・画質の全てを同時に実現するとともに、実環境下での高い汎化性能も備えることから、レンズレスカメラの実用化に向けた重要な基盤技術となり得ます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ウェルカムレース🚴</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-06-12-welcome-race/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-06-12-welcome-race/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;今年も4年生によるインタラクティブシステム発表会（通称、ウェルカムレース）を開催しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>CVPR 2026にて口頭発表およびポスター発表を行いました</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-06-06-cvpr/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:01 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-06-06-cvpr/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://cvpr.thecvf.com/Conferences/2026&#34;&gt;CVPR 2026&lt;/a&gt;にて、2025年度修士卒 河野が口頭発表＋ポスター発表を、特任研究員S 河内、OB 井元がポスター発表 (Findings) をそれぞれ行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>埋め込みカメラを用いたマルチプロジェクタ較正におけるスケーラビリティ限界の打破</title>
+      <link>https://xrgroup-uosaka.github.io/projects/26-06-06-kawano-cvpr/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/projects/26-06-06-kawano-cvpr/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;従来のマルチプロジェクタ較正（キャリブレーション）では、各プロジェクタごとに構造化光パターンを順番に投影・撮影する必要があるため、プロジェクタ数の増加に伴い較正時間と作業量が線形に増大していました。このスケーラビリティの問題は、大規模なプロジェクションマッピングシステムの展開を長年妨げてきました。&#xA;本研究では、この制約を打破する新しい較正手法を提案します。提案手法では、較正儀（キャリブレーションボード）の表面にカメラを埋め込み、埋め込みカメラが入射する投影光を直接観測することで、複数プロジェクタから同時に投影された構造化光パターンを入射方向に基づいて分離します。これにより、埋め込みカメラの光学中心とプロジェクタ画素との対応付けを行い、全プロジェクタの内部・外部パラメータを同時推定できます。&#xA;さらに、キャリブレーションボード表面とカメラ光学中心の微小な位置ずれを補正する手法も導入しました。その結果、従来手法と同等の較正精度を維持しながら、必要な投影・撮影回数をプロジェクタ数に対してほぼ一定に抑えることができます。これにより、高輝度スタッキング表示、超解像表示、ライトフィールド表示、影抑制表示など、投影領域が重なり合う高密度マルチプロジェクタシステムにおいて、劇的なスケーラビリティ向上を実現します。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>運動会を開催しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-06-05-sports-day/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-06-05-sports-day/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;研究室内レクレーションの一環で運動会を開催しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>符号化開口と拡散モデルを融合した三次元イメージング</title>
+      <link>https://xrgroup-uosaka.github.io/projects/26-05-28-nakamura-ieee/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/projects/26-05-28-nakamura-ieee/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;本研究では、レンズ内に配置した特殊なマスク（符号化開口）が写し出す、距離ごとに異なるボケの模様を手がかりに、撮影された1枚の写真から、被写体までの距離情報とピントの合った画像を物理法則に基づいて同時に復元する新たな手法を開発しました。ピントが合っていない部分に生じる「ボケ」には距離の情報が含まれていますが、ボケから距離と画像を同時に復元するには手がかりが足りず、答えが一つに定まりません。従来は、人間が経験的に作ったルールを手がかりにする方法や、大量のデータで答えを学習する深層学習の方法が用いられてきましたが、高い精度の実現が困難である点や、撮影条件が変わると性能が落ちる点が課題でした。そこで本研究では、撮影の物理法則に沿って、観測されたボケ画像と矛盾しない答えを探す枠組みを構築しました。通常の方法では答えを絞り切れないため、補助情報として、「拡散モデル」と呼ばれるAI技術が学習した「自然な画像らしさ」の知識を利用しています。AIは撮影条件に依存しない汎用的な補助情報としてのみ働くため、カメラやノイズの条件が変わっても安定した復元が可能です。シミュレーション実験と試作カメラによる実験の両方で有効性を確認しました。本成果は、LiDARなどの専用センサに比べて小型・低コストな装置の実現や、さらなる精度向上と適用範囲の拡大が期待されます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SCI&#39;26 にて口頭発表しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-05-24-sci/</link>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-05-24-sci/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;修士1年の川島、田原、中島、早形、森川が、&lt;a href=&#34;https://sci26.iscie.or.jp/&#34;&gt;第70回システム制御情報学会研究発表講演会 (SCI&#39;25)&lt;/a&gt; にて口頭発表を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Utah State University から Issac Cho 助教が来訪されました</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-05-15-cho-visit/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-05-15-cho-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;アメリカの Utah State University から &lt;a href=&#34;http://vizus.cs.usu.edu/isaac-cho&#34;&gt;Issac Cho&lt;/a&gt; 助教が来訪されました。研究室の見学と、最新の 3D ユーザインタフェースに関する講演をしていただきました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>2026年度 春遠足</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-05-10-kobe-animal-kingdom/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-05-10-kobe-animal-kingdom/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;神戸市の&lt;a href=&#34;https://www.kobe-oukoku.com/&#34;&gt;神戸どうぶつ王国&lt;/a&gt;へ、春遠足に出かけました。多くの動物達に癒されました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>2次元分光放射計を用いたプロジェクタ色補償</title>
+      <link>https://xrgroup-uosaka.github.io/projects/26-04-20-maeda-opt.-express/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/projects/26-04-20-maeda-opt.-express/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;プロジェクションマッピング（PM）は、コンピュータ生成画像を実世界の物体上に光学的に重畳することで、ユーザが表示デバイスを装着することなく拡張現実を体験できるようにする技術である。しかし、投影対象の表面テクスチャはしばしば色ずれを引き起こし、表示される色が所望の色からずれる原因となる。そこで本研究では、2D分光放射計（2DSR）を用いて、目標画像と投影結果との色差を最小化するプロジェクタ放射輝度補償手法を提案する。提案手法では、プロジェクタと2DSRの間の色変換を微分可能な形でモデル化する。この定式化に基づき、プロジェクタ色補償のための二つの最適化戦略を提案する。すなわち、（i）目標外観と投影結果とのスペクトル誤差の最小化、および（ii）人間の視覚知覚を反映するよう設計された微分可能な色空間において測定される色差の最小化、である。実機プロトタイプを用いた実験により、提案手法は、RGBカメラを用いる従来手法と比較して、より高精度なプロジェクタ色補償を実現し、人間の色知覚との整合性も高いことを示した。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>二期生合流</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-04-14-2026-members/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-04-14-2026-members/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;岩井研に第二期生を迎え入れました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>文部科学大臣表彰 若手科学者賞 受賞</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-04-08-mext-award/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-04-08-mext-award/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;中村 准教授が、令和8年度科学技術分野の文部科学大臣表彰 若手科学者賞を受賞しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>卒業式</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-03-25-graduation/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-03-25-graduation/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;卒業式が行われ、修士2年8名と学部4年8名に、それぞれ、修士、学士の学位が授与されました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>IEEE 関西支部 学生研究奨励賞 受賞</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-03-23-ieee-kansai-award/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:02 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-03-23-ieee-kansai-award/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;博士学生の楠山が &lt;a href=&#34;https://www.ieee-jp.org/section/kansai/award/studentlist.html&#34;&gt;IEEE 関西支部 学生研究奨励賞&lt;/a&gt; を受賞しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>IEEE VR 2026にて2件の口頭発表を行いました</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-03-23-ieeevr/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:01 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-03-23-ieeevr/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;博士学生 竹内、修士学生 藤村が、&lt;a href=&#34;https://ieeevr.org/2026/&#34;&gt;IEEE VR 2026&lt;/a&gt; にて口頭発表を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>IEEE VR 2026 ダブル受賞</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-03-23-ieeevr-awards/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-03-23-ieeevr-awards/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ieeevr.org/2026/awards/conference-awards/&#34;&gt;IEEE VR 2026&lt;/a&gt; にて Best Paper Award および Honorable Mention Award を受賞しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>IEEE VR 2026 VR-HSA ワークショップにて発表3件＋受賞1件</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-03-22-vr-hsa/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-03-22-vr-hsa/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;修士学生の井元、竹内、三浦が、IEEE VR 2026 併催の &lt;a href=&#34;https://sites.google.com/vogue.cs.titech.ac.jp/VR-HSA&#34;&gt;VR-HSA ワークショップ&lt;/a&gt;にてショートプレゼンおよびポスター発表を行いました。また、井元の論文が Best Paper Honorable Mention Award を受賞しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>ライトフィールド照明による高コントラストなプロジェクションマッピング</title>
+      <link>https://xrgroup-uosaka.github.io/projects/26-03-19-fujimura-tvcg/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/projects/26-03-19-fujimura-tvcg/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;プロジェクションマッピング（PM）は、物理的な物体表面に映像を投影し、特別なデバイスなしで複数のユーザーが拡張現実体験を共有できる技術です。しかし、高品質な投影を確保するためには暗い環境が必要であり、その実用化は「暗室の制約」によって制限されてきました。この制約を克服するため、本研究では、PMの投影対象を避けつつ周囲の環境を選択的に照らす新しい「ターゲット回避照明」手法を提案します。本システムは、LEDディスプレイと最適化された非周期レンズアレイを組み合わせることでライトフィールド照明を実現します。主な貢献は、一般的な照明と同等の自然なソフトシャドウを再現できる広い有効光源面積をコンパクトな構成で提供しつつ、投影対象を正確に回避するために必要な空間制御性を維持したことです。また、ターゲット回避照明時のクロストークに起因する意図しないダークスポットを抑制するための非周期レンズ配置の最適化手法に加え、ダイナミックPMに対応するリアルタイム手法を含む、3種類のLED輝度パターン算出手法を提案しました。プロトタイプシステムを用いた実験により、本アプローチが明るい環境下でも高コントラストなPMを実現することを示しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>合成開口プロジェクタによる影なしプロジェクションマッピング</title>
+      <link>https://xrgroup-uosaka.github.io/projects/26-03-18-okamoto-tvcg/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/projects/26-03-18-okamoto-tvcg/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;プロジェクションマッピングにおいてユーザーの手などが投影光を遮ると、影が生じて映像が見えなくなってしまいます。影問題の解決手法として、大型のフレネルレンズを用いて投影光を広い角度から集める大開口投影アプローチがあります。しかし大開口プロジェクタでは、レンズ収差や迷光などの影響で、投影画像に大きなボケが生じてしまいます。そこで本研究では、符号化開口と投影画像の事前鮮鋭化処理を順次最適化することで、投影ボケに対処します。まずフレネルレンズの表面形状を数理モデル化し、大開口プロジェクタの点像分布関数（PSF）の微分可能光学シミュレータを導入します。次に、シミュレートされたPSFに基づいた、符号化開口形状の最適化フレームワークを提案します。本研究ではPSFの広帯域フーリエスペクトル、光透過効率、影抑制性能という3つの損失関数を定義し，その線形結合を用いて符号化パターンを最適化します。最後に最適化されたマスクの下で、デコンボリューション処理によって投影画像を最適化します。シミュレーションと実機実験を通じて、上記の投影ボケ補償手法の有効性を検証しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Augmented Humans 2026 にてポスター発表を行いました</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-03-16-ahs-oist/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-03-16-ahs-oist/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;博士学生の楠山、竹内、三浦が、OIST で開催された &lt;a href=&#34;https://augmented-humans.org/&#34;&gt;Augmented Humans 2026&lt;/a&gt; にてポスター発表を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>電子情報通信学会 総合大会での招待講演</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-03-12-ieice-gc/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:01 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-03-12-ieice-gc/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;雨坂 助教が、電子情報通信学会 総合大会 2026 コミュニケーションクオリティ研究会企画セッション「環境認識のためのセンサデータ処理技術とその応用」にて&lt;a href=&#34;https://pub.confit.atlas.jp/ja/event/general2026/presentation/BI-6-03&#34;&gt;招待講演&lt;/a&gt;を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>JST ASPIRE 研究キャンプ</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-03-12-aspire-camp/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-03-12-aspire-camp/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;岩井教授と博士学生の楠山、竹内、三浦、Sommart が、JST ASPIRE プロジェクトの一環として開催された研究キャンプに参加しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>ハプティクス研究会にて口頭発表を行いました</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-03-10-sighaptics/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-03-10-sighaptics/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;学部4年 岸が、&lt;a href=&#34;https://sighaptics.vrsj.org/event/sig/36&#34;&gt;第36回ハプティクス研究会&lt;/a&gt;（日本バーチャルリアリティ学会 ハプティクス研究委員会 主催）にて口頭発表を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>日帰りスキー＆スノボ旅行</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-03-06-ski-trip/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-03-06-ski-trip/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;岐阜県の&lt;a href=&#34;https://www.takasu.gr.jp/&#34;&gt;高鷲スノーパーク&lt;/a&gt;へ、日帰りのスキー・スノーボード旅行に出かけました。研究室の外でメンバー同士の時間を過ごし、ゲレンデで楽しいひとときを過ごす良い機会となりました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Optics Express 論文発表</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-02-25-kusuyama-oe/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-02-25-kusuyama-oe/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;博士1年 楠山の論文が、&lt;a href=&#34;https://doi.org/10.1364/OE.587813&#34;&gt;Optics Express&lt;/a&gt; より出版されました。詳細は&lt;a href=&#34;https://xrgroup-uosaka.github.io/projects/26-02-25-kusuyama-opt.-express/&#34;&gt;こちら&lt;/a&gt;。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Utrecht University から Wolfgang Hürst 教授が来訪されました</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-02-25-huerst-visit/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-02-25-huerst-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;オランダの Utrecht University から &lt;a href=&#34;https://www.uu.nl/staff/WOHurst&#34;&gt;Wolfgang Hürst&lt;/a&gt; 教授が来訪されました。研究室の見学と、最新のビデオ閲覧インタフェース研究に関する講演をしていただきました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>符号化大開口フレネルレンズを用いた影なしプロジェクタ</title>
+      <link>https://xrgroup-uosaka.github.io/projects/26-02-25-kusuyama-opt.-express/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/projects/26-02-25-kusuyama-opt.-express/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;プロジェクションマッピングにおいてユーザーの手などが投影光を遮ると、影が生じて映像が見えなくなってしまいます。影問題の解決手法として、大型のフレネルレンズを用いて投影光を広い角度から集める大開口投影アプローチがあります。しかし大開口プロジェクタでは、レンズ収差や迷光などの影響で、投影画像に大きなボケが生じてしまいます。そこで本研究では、符号化開口と投影画像の事前鮮鋭化処理を順次最適化することで、投影ボケに対処します。まずフレネルレンズの表面形状を数理モデル化し、大開口プロジェクタの点像分布関数（PSF）の微分可能光学シミュレータを導入します。次に、シミュレートされたPSFに基づいた、符号化開口形状の最適化フレームワークを提案します。本研究ではPSFの広帯域フーリエスペクトル、光透過効率、影抑制性能という3つの損失関数を定義し，その線形結合を用いて符号化パターンを最適化します。最後に最適化されたマスクの下で、デコンボリューション処理によって投影画像を最適化します。シミュレーションと実機実験を通じて、上記の投影ボケ補償手法の有効性を検証しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CVPR 2026 に論文採択</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-02-21-cvpr-accepted/</link>
+      <pubDate>Sat, 21 Feb 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-02-21-cvpr-accepted/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;研究成果3件が、コンピュータビジョン系の国際会議 &lt;a href=&#34;https://cvpr.thecvf.com/&#34;&gt;CVPR 2026&lt;/a&gt; に採択されました (Main conference 1件、Findings 2件)。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>卒業論文公聴会</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-02-17-bachelor-defense/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-02-17-bachelor-defense/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;学部4年の8名が卒業論文公聴会にて研究成果発表を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>修士論文公聴会</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-02-09-master-defense/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-02-09-master-defense/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;修士2年の8名が修士論文公聴会にて研究成果発表を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>たこ焼きパーティー (留学生送別会) 開催</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-02-04-farewell-party/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-02-04-farewell-party/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;2025年度秋冬学期の短期留学生の Dan Qu (UC Santa Cruz) さん、Stephan Kingsbery (TU Darmstadt) さんの送別会として、たこ焼きパーティーを開催しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>IEEE VR 2026 に2件採択―いずれも国際誌 IEEE TVCG 掲載決定</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-01-27-ieeevr-accepted/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-01-27-ieeevr-accepted/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;研究成果2件が、XR 系の国際会議 &lt;a href=&#34;https://ieeevr.org/2026/&#34;&gt;IEEE VR 2026&lt;/a&gt; に採択されました。両論文とも国際誌 IEEE Transactions on Visualization and Computer Graphics (TVCG) に掲載予定です。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>国際会議 IEEE AIxVR 2026 の運営に全面協力しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-01-26-aixvr/</link>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-01-26-aixvr/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;2026年1月26-28日、基礎工学研究科・国際棟にて開催された、AI と XR に関する国際会議 &lt;a href=&#34;https://aivr.science.uu.nl/2026/&#34;&gt;IEEE AIxVR 2026&lt;/a&gt; の運営に全面協力しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>SPIE Photonics West 2026 口頭発表＋スタンフォード大 Wetzstein 研究室訪問</title>
+      <link>https://xrgroup-uosaka.github.io/post/26-01-17-pw-stanford/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/26-01-17-pw-stanford/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;アメリカ・サンフランシスコで開催された&lt;a href=&#34;https://spie.org/conferences-and-exhibitions/photonics-west&#34;&gt;SPIE Photonics West 2026&lt;/a&gt; にて、中村准教授が招待講演を、博士1年 楠山、Sommart、竹内、三浦が口頭発表を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>WISS 2025 にてデモ発表を行いました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-12-25-wiss/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-12-25-wiss/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;学部4年 岸、学部3年インターン生 清水が、&lt;a href=&#34;https://www.wiss.org/WISS2025/&#34;&gt;WISS 2025: 第33回インタラクティブシステムとソフトウェアに関するワークショップ&lt;/a&gt; にてデモ発表を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>クリスマスパーティー</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-12-19-christmas-party/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-12-19-christmas-party/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tabelog.com/osaka/A2706/A270603/27077579/&#34;&gt;肉バルMoooh!!&lt;/a&gt;にてクリスマスパーティーを開催しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>学部4年の岸が電気学会関西支部 若手研究発表会 奨励賞を受賞しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-12-15-ieej-award/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-12-15-ieej-award/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;学部4年の岸の電気学会関西支部 若手研究発表会でのポスター発表に対して&lt;a href=&#34;https://www.iee.jp/kansai/student/2025%E5%B9%B4%E5%BA%A6%E5%8F%97%E8%B3%9E%E8%80%85%E4%B8%80%E8%A6%A7/&#34;&gt;奨励賞&lt;/a&gt;が授与されました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>TU Graz から Alexander Plopski 助教が来訪されました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-12-10-plopski-visit/</link>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-12-10-plopski-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;オーストリアのTU Grazから&lt;a href=&#34;https://aplopski.github.io/index.html&#34;&gt;Alexander Plopski&lt;/a&gt;助教が来訪されました。研究室の見学と、最新の視線適応型拡張現実インタフェース研究に関する講演をしていただきました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>FrontierLab Mini の成果を ICAT-EGVE 2025 にて口頭発表しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-12-03-icat-egve/</link>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-12-03-icat-egve/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.es.osaka-u.ac.jp/en/admission-aid/Non-degree/index.html&#34;&gt;FrontierLab Miniプログラム&lt;/a&gt;を利用して当研究室に滞在していたTU Darmstadtの留学生Grünwaldさんが、同プログラムで取り組んだ研究成果を、&lt;a href=&#34;https://a.bth.se/icat-egve2025/&#34;&gt;ICAT-EGVE 2025&lt;/a&gt;にて口頭発表しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>電気学会関西支部 若手研究発表会にてポスター発表を行いました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-11-30-ieej-kansai/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-11-30-ieej-kansai/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;学部4年 岸が、&lt;a href=&#34;https://www.iee.jp/kansai/wakate2025/&#34;&gt;電気学会関西支部 若手研究発表会&lt;/a&gt; にてポスター発表を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>修士2年の井元が令和7年度 パターン計測部会 優秀論文賞を受賞しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-11-21-pattern-award/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-11-21-pattern-award/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;修士2年 井元が、計測自動制御学会計測部門パターン計測部会「第30回パターン計測シンポジウム」において口頭発表を行い、&lt;a href=&#34;https://www.sice.or.jp/org/pattern/&#34;&gt;令和7年度 パターン計測部会 優秀論文賞&lt;/a&gt;を受賞しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>INTER BEE IGNITION × DCEXPO にてデモ展示を行いました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-11-19-interbee/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-11-19-interbee/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;雨坂助教が、&lt;a href=&#34;https://www.dcexpo.jp/&#34;&gt;INTER BEE IGNITION × DCEXPO&lt;/a&gt; にてデモ展示を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>研究室旅行で福井県を周遊しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-11-08-lab-trip/</link>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-11-08-lab-trip/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;2025年11月8-9日、研究室メンバーで福井県へ旅行しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Optics Express 論文発表</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-11-05-nakamura-oe/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-11-05-nakamura-oe/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;中村 准教授の論文が、&lt;a href=&#34;https://doi.org/10.1364/OE.576474&#34;&gt;Optics Express&lt;/a&gt; より出版されました。詳細は&lt;a href=&#34;https://xrgroup-uosaka.github.io/projects/25-11-05-jose-opt.-express/&#34;&gt;こちら&lt;/a&gt;。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>開放型放射開口を用いた全焦点レンズレスイメージング</title>
+      <link>https://xrgroup-uosaka.github.io/projects/25-11-05-jose-opt.-express/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/projects/25-11-05-jose-opt.-express/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;符号化開口と計算再構成を組み合わせたレンズレスイメージングは、極めて薄型なカメラ実現に向けた有望な技術として注目されています。私たちはこれまでに、開口パターンを放射状に設計することで被写界深度を大きく拡張できることを示してきました[1]。しかし、再構成の安定性を確保するためには開口領域を制限する必要があり、それが被写界深度の伸長におけるボトルネックとなっていました。本研究では、開放型の放射状開口（full-aperture radial mask）を採用した新しいレンズレス光学系と、その特性に最適化した画像再構成アルゴリズムを開発することで、この課題を克服しました。その結果、より「全焦点」に近い撮像を小型光学系・処理系で実現できるようになりました。数値実験および実機プロトタイプにより、近距離から遠距離までの被写体を同時に鮮明に捉える超薄型カメラの可能性を実証するとともに、文字認識、QRコード読み取り、自然物体撮像など、多様な応用への有効性を確認しました。&#xA;&lt;br&gt;&#xA;[1] José Reinaldo Cunha Santos A. V. Silva Neto, Tomoya Nakamura, Yasushi Makihara, and Yasushi Yagi, “Extended Depth-of-Field Lensless Imaging using an Optimized Radial Mask,” IEEE Transactions on Computational Imaging, Vol. 9, pp. 857-868 (2023).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Frontiers in Virtual Reality 論文発表</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-10-24-takeuchi-frontiersvr/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-10-24-takeuchi-frontiersvr/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;博士1年 竹内の論文が、&lt;a href=&#34;https://doi.org/10.3389/frvir.2025.1649901&#34;&gt;Frontiers in Virtual Reality&lt;/a&gt;より出版されました。詳細は&lt;a href=&#34;https://xrgroup-uosaka.github.io/projects/25-10-24-takeuchi-frontiersinvr/&#34;&gt;こちら&lt;/a&gt;。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>環境照明下におけるプロジェクションマッピングの投影テクスチャが色の見えに与える影響</title>
+      <link>https://xrgroup-uosaka.github.io/projects/25-10-24-takeuchi-frontiersinvr/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/projects/25-10-24-takeuchi-frontiersinvr/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;物体に映像を投影し、その質感を切り替えることが可能な技術であるプロジェクションマッピングは、環境照明下では投影テクスチャのコントラストが低下するため、暗室環境での利用に限られていました。近年では、室内照明がプロジェクタに置き換わり、投影対象だけを照射しない照明技術によって、明室環境でも高コントラストな投影が可能になりました。暗室環境に対して明室環境では投影対象の見えが開口色モードから表面色モードに遷移することがこれまでに報告されていますが、投影テクスチャが見えに与える影響は明らかになっていません。本研究では、環境照明下でのプロジェクションマッピングにおいて、投影テクスチャの色の見えのモードが遷移する輝度閾値を調査する心理物理実験を行いました。その結果、投影テクスチャはパターンによって輝度閾値に違いがあることが明らかになりました。プロジェクションマッピングにおける独自の色の見えのモードの存在が示唆されました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>手巻き寿司で留学生を歓迎しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-10-23-welcome-party/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-10-23-welcome-party/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;2025年10月に合流した3名の留学生の歓迎パーティーを行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>東京大学から森田崇文 助教が来訪されました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-10-17-morita-visit/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-10-17-morita-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;東京大学から&lt;a href=&#34;https://www.takafumi-morita.com/&#34;&gt;森田崇文&lt;/a&gt; 助教が来訪されました。研究室の見学と、最新の電気的液体駆動研究に関する講演をしていただきました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>IEEE ISMAR 2025 にて3件のポスター発表を行いました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-10-08-ismar/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-10-08-ismar/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;修士2年 石川、小西、山本が、&lt;a href=&#34;https://www.ieeeismar.net/2025/&#34;&gt;IEEE International Symposium on Mixed and Augmented Reality 2025&lt;/a&gt; にてポスター発表を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Sommart に修士(工学)の学位が授与されました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-09-25-sommart-graduation/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-09-25-sommart-graduation/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;大阪大学 大学院基礎工学研究科 学位記授与式が行われ、修士2年 Thanapong Sommart が修士(工学)の学位を授与されました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>日本 VR 学会大会にて6件の口頭発表を行いました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-09-17-vrsjac/</link>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-09-17-vrsjac/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;修士2年 小西、修士1年 墨田、園田、立岩、中尾、前田が、&lt;a href=&#34;https://conference.vrsj.org/ac2025/&#34;&gt;第30回日本バーチャルリアリティ学会大会&lt;/a&gt; にて口頭発表を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>日本視覚学会2025年夏季大会にて口頭発表</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-09-10-vsj-summer/</link>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-09-10-vsj-summer/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;博士1年 竹内が、&lt;a href=&#34;https://sites.google.com/view/vsj2025summer/&#34;&gt;日本視覚学会2025年夏季大会&lt;/a&gt;にて口頭発表を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>イタリア・カリアリ大学から Luigi Atzori 教授が来訪されました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-09-09-atzori-visit/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-09-09-atzori-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;イタリアの University of Cagliari から &lt;a href=&#34;https://sites.unica.it/net4u/&#34;&gt;Luigi Atzori&lt;/a&gt; 教授が来訪されました。研究室の見学と、最新の QoE (Quality of Experience) 研究に関する講演をしていただきました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>第1回質感フォーラム開催</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-09-01-shitsukan-forum/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-09-01-shitsukan-forum/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.shitsukan.jp/tsudoi/event/2025.html&#34;&gt;第1回 質感フォーラム&lt;/a&gt;が、大阪大学 シグマホールにて開催され、岩井研全体でその運営をサポートしました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>第24回日本VR医学会学術大会にてポスター発表</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-08-30-jsmvr/</link>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-08-30-jsmvr/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;修士2年 山本が、&lt;a href=&#34;https://www.jsmvr.org/jsmvr2025&#34;&gt;第24回 日本VR医学会学術大会​&lt;/a&gt; にてポスター発表を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>東京科学大学から小池英樹 教授が来訪されました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-08-27-koike-visit/</link>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-08-27-koike-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;東京科学大学から、&lt;a href=&#34;https://www.vogue.cs.titech.ac.jp/&#34;&gt;小池英樹&lt;/a&gt; 教授が来訪されました。研究室の見学と、Computer Vision および HCI 技術を技能獲得支援に活用する研究に関する講演をしていただきました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>オープンキャンパスにてXRフォトブース出展</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-08-08-open-campus/</link>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-08-08-open-campus/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;基礎工学部オープンキャンパスにてXRフォトブースを出展しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>NYU Abu Dhabi の Banakou 博士と Arts et Métiers ParisTech の Gorisse 博士が来訪されました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-08-07-banakou-gorisse-visit/</link>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-08-07-banakou-gorisse-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;NYU Abu Dhabi から、&lt;a href=&#34;https://domnabanakou.com/&#34;&gt;Domna Banakou&lt;/a&gt; 博士が、Arts et Métiers ParisTech から、&lt;a href=&#34;https://scholar.google.com/citations?user=UVfLH64AAAAJ&amp;amp;hl=en&#34;&gt;Geoffrey Gorisse&lt;/a&gt; が来訪されました。研究室の見学と、最新の XR 研究に関する講演をしていただきました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>EarHover：ヒアラブルデバイスにおける音漏れ信号を用いた空中ジェスチャ認識</title>
+      <link>https://xrgroup-uosaka.github.io/projects/25-08-01-suzuki-uist24/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/projects/25-08-01-suzuki-uist24/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;私たちは、ヒアラブルデバイス向けの空中ジェスチャ入力を可能にする革新的なシステム「EarHover」を提案します。空中ジェスチャ入力は、デバイスに触れる必要がないため、手やデバイスを清潔に保つことができます。しかし、これまでのヒアラブルデバイスにおける空中ジェスチャ入力は、カメラや赤外線センサを追加する手法に限られていました。&#xA;本研究では、ヒアラブルデバイス特有の「音漏れ」現象に着目し、スピーカと外部マイクロホンという、デバイスと高い親和性を持つ構成で、空中ジェスチャ認識を実現しました。音漏れによってデバイスの外部に漏れた信号は、外部マイクロホンで計測され、手の動きの速度や形状によって生じる反射特性の違いを検出できます。&#xA;評価実験では、27種類のジェスチャの中から、信号の識別性とユーザ受容性の観点から、EarHoverに適した7種類のジェスチャを選定しました。さらに、現実世界の応用シナリオを想定し、2種類のプロトタイプデバイス（耳内装着型／開放型）におけるジェスチャ検出と分類性能を網羅的に評価しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>FlexEar-Tips: 空気圧制御によるイヤーチップ変形</title>
+      <link>https://xrgroup-uosaka.github.io/projects/25-08-01-amesaka-chi25/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/projects/25-08-01-amesaka-chi25/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;次世代のヒアラブルデバイスに向けて設計された動的イヤーチップシステム「FlexEar-Tips」を提案しました。このイヤーチップは、エアポンプとソレノイドバルブにより制御され、快適性と機能性のためにサイズ調整が可能です。また、イヤーチップのサイズをモニタリングするための空気圧センサを備えており、環境条件やユーザのニーズに応じて適応できます。&#xA;評価実験では、まずサイズ制御の精度と、耳内での触覚知覚における最小変化量について予備的な調査を行いました。続いて、ユーザが触覚通知のパターンを識別する能力、音楽鑑賞体験への影響、イヤーチップのサイズと音源定位能力の関係、そして湿度低下への影響をモデルを用いて評価しました。&#xA;本研究では、適応型ヒアラブルのための新しいインタラクションモダリティを提案し、健康モニタリング、没入型の聴覚体験、触覚通知、バイオフィードバック、センシングといった観点からその可能性を議論しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>博士1年の楠山が MIRU インタラクティブ発表賞を受賞しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-08-01-miru-award/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-08-01-miru-award/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;博士1年の楠山が、MIRU2025 にて&lt;a href=&#34;https://cvim.ipsj.or.jp/MIRU2025/award.html#MIRU_Interactive_Presentation_Awards&#34;&gt;MIRUインタラクティブ発表賞&lt;/a&gt;を受賞しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>MIRU2025にてポスター発表しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-07-29-miru/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-07-29-miru/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;博士1年 楠山、三浦、修士2年 井元、修士1年 前田、特任研究員S(産研 博士2年)河内が、&lt;a href=&#34;https://cvim.ipsj.or.jp/MIRU2025/&#34;&gt;画像の認識・理解シンポジウム MIRU2025​&lt;/a&gt; にてポスター発表を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>東京科学大学から宮藤詩緒助教が来訪されました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-06-20-miyafuji-visit/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-06-20-miyafuji-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;東京科学大学から、&lt;a href=&#34;https://shioshio.space/&#34;&gt;宮藤詩緒&lt;/a&gt; 助教が来訪されました。研究室の見学と、最新の XR 研究に関する講演をしていただきました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>運動会を開催しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-06-13-sports-day/</link>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-06-13-sports-day/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;研究室内レクレーションの一環で運動会を開催しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>University of Canterbury から Piumsomboon 准教授が来訪されました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-06-03-piumsomboon-visit/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-06-03-piumsomboon-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;ニュージーランドの University of Canterbury から、&lt;a href=&#34;https://profiles.canterbury.ac.nz/Tham-Piumsomboon&#34;&gt;Tham Piumsomboon&lt;/a&gt; 准教授が来訪されました。研究室の見学と、最新の XR 研究に関する講演をしていただきました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>修士1年の中尾が SCI 学生発表賞を受賞しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-05-31-sci-award/</link>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-05-31-sci-award/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;修士1年の中尾が、SCI&#39;25における発表技量が秀れていた学生に贈呈される&lt;a href=&#34;https://sci25.iscie.or.jp/award/&#34;&gt;SCI学生発表賞&lt;/a&gt;を受賞しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>修士1年全員が SCI&#39;25 にて口頭発表しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-05-25-sci/</link>
+      <pubDate>Sun, 25 May 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-05-25-sci/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;修士1年の6名が、&lt;a href=&#34;https://sci25.iscie.or.jp/&#34;&gt;第69回システム制御情報学会研究発表講演会 (SCI&#39;25)&lt;/a&gt; にて口頭発表を行いました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>ウェルカムレースを開催しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-05-23-welcome-race/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-05-23-welcome-race/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;4年生によるインタラクティブシステム発表会（通称、ウェルカムレース）を開催しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>岩井教授に大阪大学栄誉教授の称号が付与されました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-05-23-distinguished-professor/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-05-23-distinguished-professor/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;2025年4月1日付けで、岩井教授に&lt;a href=&#34;https://www.osaka-u.ac.jp/ja/guide/aboutuosaka/honors/odp&#34;&gt;大阪大学栄誉教授&lt;/a&gt;の称号が付与されました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>プロジェクションマッピングを用いた自動車Aピラー意匠設計支援システム</title>
+      <link>https://xrgroup-uosaka.github.io/projects/25-04-01-yoshida-tvcg/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/projects/25-04-01-yoshida-tvcg/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;プロジェクションマッピング（PM）は、製品デザインのプロセスにおいて非常に有用です。物理モックアップとデジタルモックアップを継ぎ目なくつなぐことができ、新たな質感・色・形状を、物理モックアップを都度作り直すことなくインタラクティブに検討することが可能です。PMは自動車の内装デザインにおいて効果的であることが示されていますが、従来の研究では主にダッシュボードやインストルメントパネルのデザイン支援に限定されており、実際の運転環境下での評価は行われていませんでした。本研究では、ダッシュボードに加えAピラーまでを含む、自動車内装全体を対象とした意匠設計支援システムを新たに提案します。さらに、デザイナーが実際の運転状況に近い環境でデザインを評価できるよう、モーションプラットフォームを備えたドライビングシミュレータをPMシステムに統合しました。試作システムの構築を通じて、提案するシステムの実現可能性を実証するとともに、ユーザスタディを通じて、PMを活用した自動車内装デザインにおける設計ガイドラインを導出し、より良いユーザ体験の提供を目指しています。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>春遠足で神戸須磨シーワールドを訪れました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-05-11-spring-outing/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-05-11-spring-outing/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;研究室の春遠足で&lt;a href=&#34;https://www.kobesuma-seaworld.jp/&#34;&gt;神戸須磨シーワールド&lt;/a&gt;を訪れました。新スタッフ、新4年生との懇親を深めました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>雨坂助教が ACM CHI 2025 にて口頭発表しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-04-28-amesaka-chi/</link>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-04-28-amesaka-chi/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;雨坂助教が、前職での研究成果をヒューマンコンピュータインタラクション分野の国際会議 &lt;a href=&#34;https://chi2025.acm.org/&#34;&gt;ACM CHI 2025&lt;/a&gt; にて口頭発表しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Aarhus University から Zollmann 教授と Langlotz 教授が来訪されました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-04-18-zollmann-langlotz-visit/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-04-18-zollmann-langlotz-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;デンマークの Aarhus University から、&lt;a href=&#34;https://szollmann.github.io/&#34;&gt;Stefanie Zollmann&lt;/a&gt; 教授と &lt;a href=&#34;https://cs.au.dk/~langlotz/&#34;&gt;Tobias Langlotz&lt;/a&gt; 教授が来訪されました。研究室の見学と、最新の XR 研究に関する講演をしていただきました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>一期生合流</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-04-08-inaugural-members/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-04-08-inaugural-members/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;岩井研に第一期生を迎え入れました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>岩井研究室に3名の教員が着任しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-04-01-new-professors/</link>
+      <pubDate>Tue, 01 Apr 2025 16:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-04-01-new-professors/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;岩井研究室に3名の教員（岩井大輔 教授、中村友哉 准教授、雨坂宇宙 助教）が着任しました。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>岩井研究室が発足しました</title>
+      <link>https://xrgroup-uosaka.github.io/post/25-04-01-takes-flight/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/post/25-04-01-takes-flight/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;大阪大学 大学院基礎工学研究科に、拡張現実グループ・岩井大輔研究室が発足しました。バーチャルリアリティ、拡張現実などのXR技術の研究を推進します。&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+  </channel>
+</rss>

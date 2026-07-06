@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UOsaka XR Group</title>
+    <link>https://xrgroup-uosaka.github.io/en/</link>
+    <description>Recent content on UOsaka XR Group</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0900</lastBuildDate>
+    <atom:link href="https://xrgroup-uosaka.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fast, Physically Faithful, and High-Quality Lensless Imaging via Knowledge Distillation of Denoising Diffusion Null-Space Model</title>
+      <link>https://xrgroup-uosaka.github.io/en/projects/26-06-19-nakamura-ieee/</link>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/projects/26-06-19-nakamura-ieee/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;   Lensless imaging is a computational optics technology that achieves compact imaging systems by combining coded optics with image reconstruction. Since the reconstruction involves solving an ill-conditioned inverse problem of disentangling superimposed optical information, algorithm design is critical. Classical methods are limited in reconstruction quality, while deep-learning approaches lack fidelity to the physical model. Recently, diffusion null-space models—which restrict generative completion to image components unrecoverable by inverse analysis—have achieved both physical fidelity and high quality, but remain slow due to iterative sampling.&lt;br&gt;&#xA;   We propose Null-Space Diffusion Distillation (NSDD), which distills the null-space generator into a single forward pass, enabling non-iterative, physically faithful, high-quality reconstruction. Numerical experiments quantitatively showed that NSDD uniquely achieves speed, physical fidelity, and perceptual quality simultaneously. Optical experiments confirmed its effectiveness in real-world settings, including strong generalization to out-of-distribution objects. We also verify that restricting distillation to the null-space generator yields substantially better performance than naïve full-image distillation. These results position NSDD as a key enabling technology toward practical lensless cameras.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome Race 🚴</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-06-12-welcome-race/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-06-12-welcome-race/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;This year, we once again held our annual Interactive Systems Showcase by fourth-year students, affectionately known in our lab as the &amp;ldquo;Welcome Race.&amp;rdquo;&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Oral and Poster Presentations at CVPR 2026</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-06-06-cvpr/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:01 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-06-06-cvpr/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;At &lt;a href=&#34;https://cvpr.thecvf.com/Conferences/2026&#34;&gt;CVPR 2026&lt;/a&gt;, our alumnus Takumi Kawano (M.S. 2025) gave an oral presentation and presented a poster; Project Researcher (S) Hodaka Kawachi and OB Imoto presented their posters in the Findings track.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Breaking the Scalability Limit of Multi-Projector Calibration with Embedded Cameras</title>
+      <link>https://xrgroup-uosaka.github.io/en/projects/26-06-06-kawano-cvpr/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/projects/26-06-06-kawano-cvpr/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;Conventional multi-projector calibration requires projecting and capturing structured light patterns for each projector sequentially, causing calibration time and effort to increase linearly with the number of projectors. This scalability bottleneck has long limited the deployment of large-scale projection mapping systems. We present a new calibration framework that breaks this limitation by embedding cameras into the surface of the calibration target. The embedded cameras directly capture the incoming projection light, enabling the separation of simultaneously projected structured light patterns from multiple projectors according to their incident directions. Our method establishes correspondences between the optical centers of the embedded cameras and the projector pixels, allowing the intrinsic and extrinsic parameters of all projectors to be simultaneously estimated. We further introduce a correction technique for small misalignments between the calibration board and camera optical centers. As a result, our system achieves calibration accuracy comparable to conventional methods while reducing the required number of projection-capture cycles from linear to nearly constant with respect to the number of projectors, dramatically improving scalability for dense multi-projector systems with overlapping projection regions, such as high-brightness stacking, super-resolution, light-field, and shadow-suppression displays.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab Sports Day</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-06-05-sports-day/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-06-05-sports-day/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;As part of our lab’s social activities, we held our annual Sports Day.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Single-Image Depth from Defocus with Coded Aperture and Diffusion Posterior Sampling</title>
+      <link>https://xrgroup-uosaka.github.io/en/projects/26-05-28-nakamura-ieee/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/projects/26-05-28-nakamura-ieee/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;In this study, we developed a method that recovers both the distance to the subject and an in-focus image from a single photograph, using the depth-dependent blur patterns produced by a special mask (a coded aperture) placed inside the lens. Blur in out-of-focus regions contains distance information, but blur alone is insufficient to uniquely determine both the distance and the image. Conventional approaches, based on hand-crafted rules or deep learning from large datasets, have struggled to achieve high accuracy and degrade when imaging conditions change. We instead built a framework that searches for solutions consistent with the observed image under the physical laws of image formation, using the knowledge of natural image appearance learned by a diffusion model as auxiliary information. Because this AI prior is independent of the imaging conditions, reconstruction remains stable even when the camera or noise conditions change. We validated the method in both simulations and experiments with a prototype camera. These results are expected to lead to devices smaller and cheaper than dedicated sensors such as LiDAR, with further gains in accuracy and applicability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>XR Group Gave Oral Presentations at SCI’26</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-05-24-sci/</link>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-05-24-sci/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Master students Kawashima, Tahara, Nakashima, Hayakata, and Morikawa gave oral presentations at a domestic conference &lt;a href=&#34;https://sci26.iscie.or.jp/&#34;&gt;(SCI’26)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Assistant Professor Issac Cho from Utah State University Visited XR Group</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-05-15-cho-visit/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-05-15-cho-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Assistant Professor &lt;a href=&#34;http://vizus.cs.usu.edu/isaac-cho&#34;&gt;Issac Cho&lt;/a&gt; from Utah State University visited our lab. He toured our facilities and delivered a talk on his latest research in 3D User Interfaces.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Spring Excursion 2026</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-05-10-kobe-animal-kingdom/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-05-10-kobe-animal-kingdom/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;We went on our spring excursion to &lt;a href=&#34;https://www.kobe-oukoku.com/en/&#34;&gt;Kobe Animal Kingdom&lt;/a&gt; in Kobe. We were greatly comforted and entertained by the many animals there.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Projector radiometric compensation using a 2D spectroradiometer</title>
+      <link>https://xrgroup-uosaka.github.io/en/projects/26-04-20-maeda-opt.-express/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/projects/26-04-20-maeda-opt.-express/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;Projection mapping (PM) optically overlays computer-generated imagery onto realworld&#xA;objects, enabling users to experience augmented reality without wearing any display devices.&#xA;However, surface textures often cause color distortion, leading the displayed colors to deviate&#xA;from the desired colors. To address this issue, we propose a projector radiometric compensation&#xA;method that minimizes the color difference between a target image and the projected result using&#xA;a 2D spectroradiometer (2DSR). In the proposed method, we model the color transformation&#xA;between the projector and the 2DSR in a differentiable manner. Based on this formulation, we&#xA;propose two optimization strategies for projector radiometric compensation: (i) minimizing&#xA;the spectral error between the target appearance and the projected result, and (ii) minimizing&#xA;the color difference measured in a differentiable color space designed to reflect human visual&#xA;perception. Experiments with a physical prototype demonstrate that our method achieves more&#xA;accurate projector radiometric compensation and better alignment with human color perception&#xA;than conventional methods using an RGB camera.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcoming Our 2026 Members</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-04-14-2026-members/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-04-14-2026-members/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;We welcomed the 2026 members of the XR Group.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>The MEXT Young Scientists’ Award</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-04-08-mext-award/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-04-08-mext-award/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Associate Professor Nakamura has received the Young Scientists’ Award in the FY2026 Commendation for Science and Technology by the Minister of Education, Culture, Sports, Science and Technology (MEXT).&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Celebrating XR Group Graduates and Award Winners</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-03-25-graduation/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-03-25-graduation/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;The University of Osaka held its graduation ceremony.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Kusuyama Receives IEEE Kansai Section Student Paper Award</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-03-23-ieee-kansai-award/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:02 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-03-23-ieee-kansai-award/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;PhD student Kusuyama received the &lt;a href=&#34;https://www.ieee-jp.org/section/kansai/award/studentlist.html&#34;&gt;IEEE Kansai Section Student Paper Award&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>XR Group Gave 2 Oral Presentations at IEEE VR 2026</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-03-23-ieeevr/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:01 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-03-23-ieeevr/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;A PhD student Takeuchi and a master&amp;rsquo;s student Fujimura gave oral presentations at &lt;a href=&#34;https://ieeevr.org/2026/&#34;&gt;IEEE VR 2026&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>XR Group Wins Two Awards at IEEE VR 2026</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-03-23-ieeevr-awards/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-03-23-ieeevr-awards/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Two papers from the XR Group have received a Best Paper Award and an Honorable Mention at &lt;a href=&#34;https://ieeevr.org/2026/awards/conference-awards/&#34;&gt;IEEE VR 2026&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Three Presentations and One Award at the IEEE VR 2026 VR-HSA Workshop</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-03-22-vr-hsa/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-03-22-vr-hsa/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Master&amp;rsquo;s students Imoto, Takeuchi, and Miura gave presentations at the &lt;a href=&#34;https://sites.google.com/vogue.cs.titech.ac.jp/VR-HSA&#34;&gt;VR-HSA Workshop&lt;/a&gt;, held in conjunction with IEEE VR 2026. Imoto&amp;rsquo;s paper received a Best Paper Honorable Mention Award.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>High-Contrast Projection Mapping under Light Field Illumination with LED Display and Aperiodic Lens Array</title>
+      <link>https://xrgroup-uosaka.github.io/en/projects/26-03-19-fujimura-tvcg/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/projects/26-03-19-fujimura-tvcg/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;Projection Mapping (PM) is a technology that projects images onto the surfaces of physical objects, allowing multiple users to share an augmented reality experience without special devices. However, its practical use has been constrained by the need for dark environments to ensure high-quality projection. To overcome this &amp;ldquo;dark-room constraint,&amp;rdquo; we propose a novel target-excluding lighting method that selectively illuminates the surrounding environment while avoiding the PM target. Our system achieves light-field illumination by combining an LED display panel with an optimized aperiodic lens array. The key contributions include a compact form factor that provides a large effective light source area, reproducing natural soft shadows comparable to typical lighting, while maintaining the spatial controllability needed to precisely avoid the target. We also introduce a computational technique for optimizing aperiodic lens placement to suppress undesired dark spots caused by crosstalk under target-excluding lighting, and three efficient methods for computing LED luminance patterns, including one that enables dynamic PM. Experiments with a prototype system demonstrate that our approach achieves high-contrast PM even in bright environments.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Shadowless Projection Mapping for Tabletop Workspaces with Synthetic Aperture Projector</title>
+      <link>https://xrgroup-uosaka.github.io/en/projects/26-03-18-okamoto-tvcg/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/projects/26-03-18-okamoto-tvcg/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;Projection mapping (PM) enables augmented reality (AR) experiences without requiring users to wear head-mounted displays and supports multi-user interaction. It is regarded as a promising technology for a variety of applications in which users interact with content superimposed onto augmented objects in tabletop workspaces, including remote collaboration, healthcare, industrial design, urban planning, artwork creation, and office work. However, conventional PM systems often suffer from projection shadows when users occlude the light path. Prior approaches employing multiple distributed projectors can compensate for occlusion, but suffer from latency due to computational processing, degrading the user experience. In this research, we introduce a synthetic-aperture PM system that uses a significantly larger number of projectors, arranged densely in the environment, to achieve delay-free, shadowless projection for tabletop workspaces without requiring computational compensation. To address spatial resolution degradation caused by subpixel misalignment among overlaid projections, we develop and validate an offline blur compensation method whose computation time remains independent of the number of projectors. Furthermore, we demonstrate that our shadowless PM plays a critical role in achieving a fundamental goal of PM: altering material properties without evoking projection-like impression. Specifically, we define this perceptual impression as “sense of projection (SoP)” and establish a PM design framework to minimize the SoP based on user studies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>XR Group Gave 2 Poster Presentations at Augmented Humans 2026</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-03-16-ahs-oist/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-03-16-ahs-oist/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;PhD students Kusuyama, Takeuchi, and Miura presented their work in the poster track at &lt;a href=&#34;https://augmented-humans.org/&#34;&gt;Augmented Humans 2026&lt;/a&gt;, held at OIST.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Invited Talk at IEICE General Conference</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-03-12-ieice-gc/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:01 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-03-12-ieice-gc/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Assistant Professor Amesaka gave an &lt;a href=&#34;https://pub.confit.atlas.jp/ja/event/general2026/presentation/BI-6-03&#34;&gt;invited talk&lt;/a&gt; at IEICE General Conference.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>JST ASPIRE Research Camp</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-03-12-aspire-camp/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-03-12-aspire-camp/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Professor Iwai and PhD students Kusuyama, Takeuchi, Miura, and Sommart participated in a research camp organized as part of the JST ASPIRE project.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Oral Presentation at VRSJ SIG Haptics</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-03-10-sighaptics/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-03-10-sighaptics/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Fourth-year undergraduate student Kishi presented his work at the &lt;a href=&#34;https://sighaptics.vrsj.org/event/sig/36&#34;&gt;36th Haptics Research Meeting&lt;/a&gt;, organized by the SIG Haptics of the Virtual Reality Society of Japan.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Ski &amp; Snowboard Trip</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-03-06-ski-trip/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-03-06-ski-trip/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;The XR Group headed to &lt;a href=&#34;https://www.takasu.gr.jp/&#34;&gt;Takasu Snow Park&lt;/a&gt; in Gifu Prefecture for a one-day ski and snowboard trip. We enjoyed a great day on the slopes and a fun break from our usual research activities.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>New Optics Express paper is published</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-02-25-kusuyama-oe/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-02-25-kusuyama-oe/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;A new paper by our PhD student Kusuyama has been published in &lt;a href=&#34;https://doi.org/10.1364/OE.587813&#34;&gt;Optics Express&lt;/a&gt;. Details &lt;a href=&#34;https://xrgroup-uosaka.github.io/en/projects/26-02-25-kusuyama-opt.-express/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Associate Professor Wolfgang Hürst from Utrecht University Visited XR Group</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-02-25-huerst-visit/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-02-25-huerst-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Associate Professor &lt;a href=&#34;https://www.uu.nl/staff/WOHurst&#34;&gt;Wolfgang Hürst&lt;/a&gt; from Utrecht University visited our lab. He toured our facilities and delivered a talk on his latest research in video interaction.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Shadowless projector using large-aperture Fresnel lens</title>
+      <link>https://xrgroup-uosaka.github.io/en/projects/26-02-25-kusuyama-opt.-express/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/projects/26-02-25-kusuyama-opt.-express/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;In interactive projection mapping (PM) application, when the users&amp;rsquo; bodies occlude projection lights, the projected imagery becomes  invisible due to cast shadows. One approach to shadowless PM is to use a large-aperture (LA) projector that focuses projection light from a wide viewing angle with a large-format Fresnel lens. However, LA projectors often suffer from significant blur in projected images due to lens aberrations and stray light etc. In this study, we address the blur by sequentially optimizing the coded aperture and the pre-sharpening process of the projection images. First, we mathematically model the surface profile of the Fresnel lens and introduce an optical simulator for the point spread function (PSF) of the LA projector using differentiable ray tracing. Next, we propose the optimization framework for the coded aperture pattern based on the simulated PSF. The coded aperture is optimized under a linear combination of three loss functions: the broadband Fourier spectrum of the PSF, light transmission efficiency, and shadow suppression performance. Additionally, we optimize the projection image using a conventional deconvolution process under the optimized mask. Finally, we validate the effectiveness of the proposed deblurring method through simulation and actual experiments.&#xA;&lt;br&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Papers Accepted to CVPR 2026</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-02-21-cvpr-accepted/</link>
+      <pubDate>Sat, 21 Feb 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-02-21-cvpr-accepted/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;3 papers from XR group have been accepted to &lt;a href=&#34;https://cvpr.thecvf.com/&#34;&gt;CVPR 2026&lt;/a&gt; (Main conference x1, Findings x2).&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Bachelor&#39;s Thesis Defense</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-02-17-bachelor-defense/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-02-17-bachelor-defense/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Eight fourth-year bachelor&amp;rsquo;s students presented their research at the Bachelor&amp;rsquo;s Thesis Defense.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Master&#39;s Thesis Defense</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-02-09-master-defense/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-02-09-master-defense/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Eight second-year master&amp;rsquo;s students presented their research at the Master&amp;rsquo;s Thesis Defense.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Takoyaki Party</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-02-04-farewell-party/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-02-04-farewell-party/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;We hosted a Takoyaki party to say farewell to our short-term visiting students for the Fall–Winter semester 2025, Dan Qu (UC Santa Cruz) and Stephan Kingsbery (TU Darmstadt).&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>2 Papers Accepted to IEEE VR 2026 (IEEE TVCG)</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-01-27-ieeevr-accepted/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-01-27-ieeevr-accepted/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;2 papers from XR group have been accepted to &lt;a href=&#34;https://ieeevr.org/2026/&#34;&gt;IEEE VR 2026&lt;/a&gt;. Both papers were accepted to the journal track and will be published in IEEE Transactions on Visualization and Computer Graphics (TVCG).&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>XR Group Fully Supports the Organization of IEEE AIxVR 2026</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-01-26-aixvr/</link>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-01-26-aixvr/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;The XR Group provided full support for the organization of the international conference on AI and XR, &lt;a href=&#34;https://aivr.science.uu.nl/2026/&#34;&gt;IEEE AIxVR 2026&lt;/a&gt;, held from January 26–28, 2026, at Sigma Hall, a facility of the Graduate School of Engineering Science, The University of Osaka.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>XR Group Presents at SPIE Photonics West 2026 and Visits Stanford Computational Imaging Lab</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/26-01-17-pw-stanford/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/26-01-17-pw-stanford/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;We delivered one invited talk (Assoc. Prof. Nakamura) and four oral presentations (PhD students Kusuyama, Miura, Sommart, Takeuchi) at &lt;a href=&#34;https://spie.org/conferences-and-exhibitions/photonics-west&#34;&gt;SPIE Photonics West 2026&lt;/a&gt;, held in San Francisco, USA.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Research Demos at WISS 2025</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-12-25-wiss/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-12-25-wiss/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Fourth-year undergraduate student Kishi and third-year undergraduate intern Shimizu presented research demos at &lt;a href=&#34;https://www.wiss.org/WISS2025/&#34;&gt;WISS 2025: The 33rd Workshop on Interactive Systems and Software&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Christmas Party</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-12-19-christmas-party/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-12-19-christmas-party/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;We held a Christmas party at &lt;a href=&#34;https://tabelog.com/osaka/A2706/A270603/27077579/&#34;&gt;NIKUBARU Moooh!!&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Undergraduate Student Kishi Receives Encouragement Award at the IEEJ Kansai Young Researchers Conference</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-12-15-ieej-award/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-12-15-ieej-award/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Kishi, a fourth-year undergraduate student, received the &lt;a href=&#34;https://www.iee.jp/kansai/student/2025%E5%B9%B4%E5%BA%A6%E5%8F%97%E8%B3%9E%E8%80%85%E4%B8%80%E8%A6%A7/&#34;&gt;Encouragement Award&lt;/a&gt; at the IEEJ Kansai Young Researchers Conference for his poster presentation.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Assistant Professor Alexander Plopski from TU Graz Visited XR Group</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-12-10-plopski-visit/</link>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-12-10-plopski-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Assistant Professor &lt;a href=&#34;https://aplopski.github.io/index.html&#34;&gt;Alexander Plopski&lt;/a&gt; from TU Graz in Austria visited our lab. He toured our facilities and gave a talk on his latest research on gaze-aware augmented reality interfaces.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Our Former FrontierLab Mini Student Presented at ICAT-EGVE 2025</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-12-03-icat-egve/</link>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-12-03-icat-egve/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Grünwald, a student from TU Darmstadt who participated in the &lt;a href=&#34;https://www.es.osaka-u.ac.jp/en/admission-aid/Non-degree/index.html&#34;&gt;FrontierLab Mini program&lt;/a&gt; last year, presented the research he conducted through the program at &lt;a href=&#34;https://a.bth.se/icat-egve2025/&#34;&gt;ICAT-EGVE 2025&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Poster Presentation at the IEEJ Kansai Young Researchers Conference</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-11-30-ieej-kansai/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-11-30-ieej-kansai/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Kishi, a fourth-year undergraduate student, presented a poster at the&#xA;&lt;a href=&#34;https://www.iee.jp/kansai/wakate2025/&#34;&gt;IEEJ Kansai Young Researchers Conference&#xA;&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Master’s Student Imoto Wins Outstanding Paper Award at the Pattern Measurement Symposium</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-11-21-pattern-award/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-11-21-pattern-award/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Imoto, a second-year master’s student, gave an oral presentation at the 30th Pattern Measurement Symposium organized by the Pattern Measurement Technical Committee of the Society of Instrument and Control Engineers (SICE). For this presentation, he received the FY2025 Outstanding Paper Award from the Pattern Measurement Technical Committee.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration Exhibit at INTER BEE IGNITION x DCEXPO</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-11-19-interbee/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-11-19-interbee/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Assistant Professor Amesaka presented a demonstration at &lt;a href=&#34;https://www.dcexpo.jp/&#34;&gt;INTER BEE IGNITION x DCEXPO&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>XR Lab Trip Around Fukui Prefecture</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-11-08-lab-trip/</link>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-11-08-lab-trip/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;On November 8–9, 2025, our lab members went on a trip to Fukui Prefecture.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>New Optics Express paper is published</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-11-05-nakamura-oe/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-11-05-nakamura-oe/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;A new paper by our Associate Professor Nakamura has been published in &lt;a href=&#34;https://doi.org/10.1364/OE.576474&#34;&gt;Optics Express&lt;/a&gt;. Details &lt;a href=&#34;https://xrgroup-uosaka.github.io/en/projects/25-11-05-jose-opt.-express/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Toward all-in-focus lensless imaging with full-aperture radial masks</title>
+      <link>https://xrgroup-uosaka.github.io/en/projects/25-11-05-jose-opt.-express/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/projects/25-11-05-jose-opt.-express/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;Lensless imaging, which combines coded apertures with computational reconstruction, has emerged as a promising approach for realizing ultra-thin cameras. In our prior work, we demonstrated that designing the aperture in a radial pattern can greatly extend the depth of field of lensless systems [1]. However, to maintain reconstruction stability, it was necessary to restrict the effective aperture area, which in turn limited the achievable depth-of-field range. In this study, we overcome this bottleneck by developing a new lensless optical system that employs a full-aperture radial mask, together with a reconstruction algorithm optimized for its characteristics. This enables imaging that is significantly closer to “all-in-focus” while maintaining a compact optical and computational design. Through numerical simulations and prototype experiments, we demonstrated the feasibility of an ultra-thin camera capable of capturing both near and far objects sharply at the same time. We also confirm its applicability to various tasks, including character recognition, QR-code reading, and imaging of natural objects.&#xA;&lt;br&gt;&#xA;[1] José Reinaldo Cunha Santos A. V. Silva Neto, Tomoya Nakamura, Yasushi Makihara, and Yasushi Yagi, “Extended Depth-of-Field Lensless Imaging using an Optimized Radial Mask,” IEEE Transactions on Computational Imaging, Vol. 9, pp. 857-868 (2023).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>New paper is published in Frontiers in Virtual Reality</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-10-24-takeuchi-frontiersvr/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0800</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-10-24-takeuchi-frontiersvr/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;A new paper by our PhD student Takeuchi has been published in &lt;a href=&#34;https://doi.org/10.3389/frvir.2025.1649901&#34;&gt;Frontiers in Virtual Reality&lt;/a&gt;. Details &lt;a href=&#34;https://xrgroup-uosaka.github.io/en/projects/25-10-24-takeuchi-frontiersinvr/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Luminosity thresholds in projection mapping under environmental lighting</title>
+      <link>https://xrgroup-uosaka.github.io/en/projects/25-10-24-takeuchi-frontiersinvr/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/projects/25-10-24-takeuchi-frontiersinvr/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;Projection mapping alters the visual appearance of objects by projecting images onto their surfaces. Traditionally, its application has been limited to dark environments because the contrast of the projected image diminishes in environmental lighting. This often results in the target appearing self-luminous, creating a perceptually unnatural effect. Recently, however, projection systems have been developed that maintain high contrast even in well-lit environments. Studies have shown that projections in bright rooms can shift perception from an appearance of self-luminosity to one of being illuminated. This advancement holds significant promise for applications that require visual naturalness, such as product design. Nonetheless, the influence of projected content on perception and the underlying mechanisms of perceptual color transitions in projection targets remain unclear. In this study, we found that the presence or absence of patterns in the projected content affects the luminosity threshold at which the projection target is perceived as self-luminous. Previous research in perception has suggested that the visual system relies on intrinsic criteria to determine whether an object is self-luminous. However, our results revealed that in projection mapping, the  internal reference for color perception, developed through observations of colors in daily life, does not always apply. These results indicate the existence of perceptual phenomena unique to projection mapping. This insight is crucial for product design, as it aims to achieve representations that closely resemble the appearance of real-world objects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcoming Our International Students with Hand-Rolled Sushi</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-10-23-welcome-party/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-10-23-welcome-party/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;We welcomed three international students who joined us in October 2025 with a hand-rolled sushi party.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Assistant Professor Takafumi Morita from The University of Tokyo Visited XR Group</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-10-17-morita-visit/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-10-17-morita-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;We were honored to welcome Prof. &lt;a href=&#34;https://www.takafumi-morita.com/&#34;&gt;Takafumi Morita&lt;/a&gt; from The University of Tokyo. During his visit, he toured our laboratory and gave a talk on electrically driven fluid actuation research.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>XR Group Gave 3 Poster Presentations at IEEE ISMAR 2025</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-10-08-ismar/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-10-08-ismar/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Ishikawa, Konishi, and Yamamoto gave poster presentations at &lt;a href=&#34;https://www.ieeeismar.net/2025/&#34;&gt;IEEE International Symposium on Mixed and Augmented Reality 2025&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Conferment of the Master of Engineering Diploma to Sommart</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-09-25-sommart-graduation/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-09-25-sommart-graduation/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;The diploma conferment ceremony of the Graduate School of Engineering Science at the University of Osaka was held, and Thanapong Sommart, a second-year master’s student, was conferred the diploma of Master of Engineering.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>XR Group Gave Oral Presentations at VRSJAC 2025</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-09-17-vrsjac/</link>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-09-17-vrsjac/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Konishi, Maeda, Nakao, Sonoda, Sumida, and Tateiwa gave oral presentations at &lt;a href=&#34;https://conference.vrsj.org/ac2025/&#34;&gt;The 30th Annual Conference of the Virtual Reality Society of Japan&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>PhD Student Takeuchi Gave an Oral Presentation at Vision Society of Japan 2025 Summer Meeting</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-09-10-vsj-summer/</link>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-09-10-vsj-summer/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;PhD student Takeuchi gave an oral presentation at &lt;a href=&#34;https://sites.google.com/view/vsj2025summer/&#34;&gt;Vision Society of Japan 2025 Summer Meeting​&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Prof. Luigi Atzori (University of Cagliari) Visited XR Group</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-09-09-atzori-visit/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-09-09-atzori-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;We were honored to welcome &lt;a href=&#34;https://sites.unica.it/net4u/&#34;&gt;Luigi Atzori&lt;/a&gt; from the University of Cagliari, Italy. During his visit, he toured our laboratory and gave a talk on enhancing Quality of Experience (QoE) in XR systems.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>XR Group Hosted the Inaugural Shitsukan Forum</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-09-01-shitsukan-forum/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-09-01-shitsukan-forum/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;XR Group hosted the &lt;a href=&#34;https://www.shitsukan.jp/tsudoi/event/2025.html&#34;&gt;Inaugural Texture Forum&lt;/a&gt; at The University of Osaka’s Sigma Hall.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Master Student Yamamoto Gave a Poster Presentation at Annual Conference of Japan Society for Medical Virtual Reality</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-08-30-jsmvr/</link>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-08-30-jsmvr/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Master student Yamamoto gave a poster presentation at the &lt;a href=&#34;https://www.jsmvr.org/jsmvr2025&#34;&gt;24th Annual Conference of Japan Society for Medical Virtual Reality​&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Professor Hideki Koike from Science Tokyo Visited XR Group</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-08-27-koike-visit/</link>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-08-27-koike-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;We were honored to welcome Professor &lt;a href=&#34;https://www.vogue.cs.titech.ac.jp/&#34;&gt;Hideki Koike&lt;/a&gt; from Science Tokyo to our laboratory. He gave an inspiring talk on his current research, focusing on the application of Computer Vision and HCI technologies to skill acquisition support.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>XR Photo Booth Featured at Open Campus</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-08-08-open-campus/</link>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-08-08-open-campus/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;We exhibited an XR photo booth at the Open Campus event of the School of Engineering Science, The University of Osaka.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Dr. Banakou (NYU Abu Dhabi) and Dr. Gorisse (Arts et Métiers ParisTech) Visited XR Group</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-08-07-banakou-gorisse-visit/</link>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-08-07-banakou-gorisse-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Dr. &lt;a href=&#34;https://domnabanakou.com/&#34;&gt;Domna Banakou&lt;/a&gt; from NYU Abu Dhabi and Dr. &lt;a href=&#34;https://scholar.google.com/citations?user=UVfLH64AAAAJ&amp;amp;hl=en&#34;&gt;Geoffrey Gorisse&lt;/a&gt; (Arts et Métiers ParisTech) visited XR Group and gave inspiring talks.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>EarHover: Mid-Air Gesture Recognition for Hearables Using Sound Leakage Signals</title>
+      <link>https://xrgroup-uosaka.github.io/en/projects/25-08-01-suzuki-uist24/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/projects/25-08-01-suzuki-uist24/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;We introduce EarHover, an innovative system that enables mid-air gesture input for hearables. Mid-air gesture input, which eliminates the need to touch the device and thus helps to keep hands and the device clean. However, existing mid-air gesture input methods for hearables have been limited to adding cameras or infrared sensors. By focusing on the sound leakage phenomenon unique to hearables, we have realized mid-air gesture recognition using a speaker and an external microphone that are highly compatible with hearables. The signal leaked to the outside of the device due to sound leakage can be measured by an external microphone, which detects the differences in reflection characteristics caused by the hand’s speed and shape during mid-air gestures. Among 27 types of gestures, we determined the seven suitable gestures for EarHover in terms of signal discrimination and user acceptability. We then evaluated the gesture detection and classification performance of two prototype devices (in-ear type/open-ear type) for real-world application scenarios.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>FlexEar-Tips: Shape-Adjustable Ear Tips Using Pressure Control</title>
+      <link>https://xrgroup-uosaka.github.io/en/projects/25-08-01-amesaka-chi25/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/projects/25-08-01-amesaka-chi25/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;We introduce FlexEar-Tips, a dynamic ear tip system designed for the next-generation hearables. The ear tips are controlled by an air pump and solenoid valves, enabling size adjustments for comfort and functionality. FlexEar-Tips includes an air pressure sensor to monitor ear tip size, allowing it to adapt to environmental conditions and user needs. In the evaluation, we conducted a preliminary investigation of the size control accuracy and the minimum amount of variability of haptic perception in the user’s ear. We then evaluated the user’s ability to identify patterns in the haptic notification system, the impact on the music listening experience, the relationship between the size of the ear tips and the sound localization ability, and the impact on the reduction of humidity in the ear using a model. We proposed new interaction modalities for adaptive hearables and discussed health monitoring, immersive auditory experiences, haptics notifications, biofeedback, and sensing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PhD Student Kusuyama Receives MIRU Interactive Presentation Award</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-08-01-miru-award/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-08-01-miru-award/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;PhD student Kusuyama received the &lt;a href=&#34;https://cvim.ipsj.or.jp/MIRU2025/award.html#MIRU_Interactive_Presentation_Awards&#34;&gt;MIRU Interactive Presentation Award&lt;/a&gt; at MIRU2025.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>XR Group Gave Poster Presentations at MIRU 2025</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-07-29-miru/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-07-29-miru/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Kusuyama, Miura, Imoto, Maeda, and Kawachi gave poster presentations at a domestic conference on computer vision (&lt;a href=&#34;https://cvim.ipsj.or.jp/MIRU2025/&#34;&gt;MIRU2025​&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Assistant Professor Shio Miyafuji from Science Tokyo Visited XR Group</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-06-20-miyafuji-visit/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-06-20-miyafuji-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Assistant Professor &lt;a href=&#34;https://shioshio.space/&#34;&gt;Shio Miyafuji&lt;/a&gt; from Science Tokyo visited XR Group and gave an inspiring talk.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Sports Day</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-06-13-sports-day/</link>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-06-13-sports-day/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;As part of our lab’s recreational activities, we held a sports day.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Associate Professor Tham Piumsomboon from University of Canterbury Visited XR Group</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-06-03-piumsomboon-visit/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-06-03-piumsomboon-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Associate Professor &lt;a href=&#34;https://profiles.canterbury.ac.nz/Tham-Piumsomboon&#34;&gt;Tham Piumsomboon&lt;/a&gt; from University of Canterbury visited XR Group and gave an inspiring talk.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>First-Year Master’s Student Nakao Receives SCI Student Presentation Award</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-05-31-sci-award/</link>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-05-31-sci-award/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;First-year master’s student Nakao received the &lt;a href=&#34;https://sci25.iscie.or.jp/award/&#34;&gt;SCI Student Presentation Award&lt;/a&gt;, which is presented to students who demonstrate exceptional presentation skills at SCI’25.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>All First-Year Master’s Students Gave Oral Presentations at SCI’25</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-05-25-sci/</link>
+      <pubDate>Sun, 25 May 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-05-25-sci/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Six first-year master’s students gave oral presentations at a domestic conference &lt;a href=&#34;https://sci25.iscie.or.jp/&#34;&gt;(SCI’25)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Professor Iwai Awarded Title of Osaka University Distinguished Professor</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-05-23-distinguished-professor/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-05-23-distinguished-professor/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;As of April 1, 2025, Professor Iwai was awarded the title of &lt;a href=&#34;https://www.osaka-u.ac.jp/en/guide/honors/odp&#34;&gt;Osaka University Distinguished Professor&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>We Held a Welcome Race</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-05-23-welcome-race/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-05-23-welcome-race/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;We held the Interactive Systems Showcase by fourth-year students&amp;mdash;an event we affectionately call the “Welcome Race.”&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>A Mixed Reality Car A-Pillar Design Support System Utilizing Projection Mapping</title>
+      <link>https://xrgroup-uosaka.github.io/en/projects/25-04-01-yoshida-tvcg/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/projects/25-04-01-yoshida-tvcg/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;Projection mapping (PM) is useful in the product design process, since it seamlessly bridges a physical mockup and its digital twin by allowing designers to interactively explore new textures, colors, and shapes without the need to create new physical mockups. While PM has proven effective for car interior design, previous research focused solely on supporting the design of dashboards and instrument panels, neglecting evaluation in realistic driving scenarios. This paper introduces a self-contained car interior design support system that extends beyond the dashboard to include the A-pillars. Additionally, to enable designers to evaluate their designs in authentic driving conditions, we integrate a driving simulator, complete with a motion platform, into the PM system. Through the construction of a prototype, we demonstrate the feasibility of our proposed system. Finally, through user studies, we derive guidelines for PM-based car interior design to optimize the user experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab Spring Outing to Kobe Suma Sea World</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-05-11-spring-outing/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-05-11-spring-outing/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;We visited &lt;a href=&#34;https://www.kobesuma-seaworld.jp/&#34;&gt;Kobe Suma Sea World&lt;/a&gt; for our lab spring outing. We had a great time getting to know our new lab members.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Assistant Professor Amesaka Delivered an Oral Presentation at ACM CHI 2025</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-04-28-amesaka-chi/</link>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-04-28-amesaka-chi/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Assistant Professor Amesaka gave an oral presentation at &lt;a href=&#34;https://chi2025.acm.org/&#34;&gt;ACM CHI 2025&lt;/a&gt; presenting research conducted at Keio University.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Professors Stefanie Zollmann and Tobias Langlotz from Aarhus University Visited XR Group</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-04-18-zollmann-langlotz-visit/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-04-18-zollmann-langlotz-visit/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;Professors &lt;a href=&#34;https://szollmann.github.io/&#34;&gt;Stefanie Zollmann&lt;/a&gt; and &lt;a href=&#34;https://cs.au.dk/~langlotz/&#34;&gt;Tobias Langlotz&lt;/a&gt; from Aarhus University visited XR Group and gave inspiring talks.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Welcoming Our Inaugural Members</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-04-08-inaugural-members/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-04-08-inaugural-members/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;We welcomed the inaugural members of the XR Group.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>Meet the New XR Group Professors</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-04-01-new-professors/</link>
+      <pubDate>Tue, 01 Apr 2025 16:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-04-01-new-professors/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;The XR Group is pleased to welcome Professor Daisuke Iwai, Associate Professor Tomoya Nakamura, and Assistant Professor Takashi Amesaka to our faculty.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+    <item>
+      <title>XR Group Takes Flight</title>
+      <link>https://xrgroup-uosaka.github.io/en/post/25-04-01-takes-flight/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0900</pubDate>
+      <guid>https://xrgroup-uosaka.github.io/en/post/25-04-01-takes-flight/</guid>
+      <description>&lt;!-- 見出し文 --&gt;&#xA;&lt;p&gt;XR group has launched in the Graduate School of Engineering Science at the University of Osaka.&lt;/p&gt;&#xA;&lt;!-- 詳細情報はmore以下に記載 --&gt;</description>
+    </item>
+  </channel>
+</rss>
